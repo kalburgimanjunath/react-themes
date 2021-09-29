@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.background {
+  background-image: url('https://images.pexels.com/photos/6605343/pexels-photo-6605343.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.sidebar {
+  display: block;
+  position: fixed;
+  background-color: #202020;
+  min-width: 35%;
+  min-height: 100%;
+  color: #fff;
+  overflow: auto;
+}
+.avatar {
+  display: block;
+  text-align: center;
+}
+.sidebar p {
+  color: #fff;
+}
+.sidebar h1 {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+.sidebar ul {
+  list-style-type: none;
+}
