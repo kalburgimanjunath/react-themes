@@ -7,9 +7,11 @@ export default function Content() {
   return (
     <div className="content">
       <Hero />
-      <Education />
-      <Experience />
-      <References />
+      <div className="main-container">
+        <Education />
+        <Experience />
+        <References />
+      </div>
     </div>
   );
 }

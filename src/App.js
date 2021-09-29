@@ -1,14 +1,11 @@
 import React from 'react';
 import './style.css';
-import Background from './components/Background';
-import Sidebar from './components/Sidebar';
-import Content from './components/Content';
+import Resume from './pages/Resume';
+
 export default function App() {
   return (
     <div>
-      <Background />
-      <Sidebar />
-      <Content />
+      <Resume />
     </div>
   );
 }
