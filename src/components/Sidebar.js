@@ -2,11 +2,15 @@ import React from 'react';
 import Avatar from './Avatar';
 import Contacts from './Contacts';
 import Expertise from './Expertise';
+import Awards from './Awards';
+import Interest from './Interest';
+import Awards from './Awards';
+import Skills from './Skills';
+import Language from './Language';
 export default function Sidebar() {
   return (
     <div className="sidebar">
       <Avatar />
-      <br />
       <h1>Profile</h1>
       <p>
         Your profile is the most important part of the resume.If it doesn't grab
@@ -19,6 +23,10 @@ export default function Sidebar() {
       </p>
       <Contacts />
       <Expertise />
+      <Skills />
+      <Awards />
+      <Interest />
+      <Language />
     </div>
   );
 }
