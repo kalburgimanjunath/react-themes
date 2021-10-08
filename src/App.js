@@ -2,13 +2,13 @@ import React from 'react';
 import './style.css';
 import Resume from './pages/Resume';
 import Cover from './pages/Cover';
-import Sitemap from './pages/Sitemap';
+import MenuBar from './components/MenuBar';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 export default function App() {
   return (
     <div>
       <Router>
-        <Sitemap />
+        <MenuBar />
         <Switch>
           <Route path="/cover">
             <Cover />

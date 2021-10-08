@@ -9,7 +9,6 @@ import Skills from './Skills';
 import Language from './Language';
 import Aboutme from './Aboutme';
 export default function Sidebar({ type }) {
-  console.log(type);
   return (
     <div className="sidebar">
       {type === 'resume' ? (
