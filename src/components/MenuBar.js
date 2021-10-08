@@ -16,34 +16,9 @@ export default function MenuBar() {
               <Link to="/">Home</Link>
             </li>
 
-            <li className="dropdown">
-              <a className="dropdown-toggle" data-toggle="dropdown">
-                Social Media
-              </a>
-
-              <ul className="dropdown-menu">
-                <li>
-                  <Link>Twitter</Link>
-                </li>
-
-                <li>
-                  <Link>Facebook</Link>
-                </li>
-
-                <li>
-                  <Link>Google+</Link>
-                </li>
-
-                <li>
-                  <Link>Instagram</Link>
-                </li>
-              </ul>
-            </li>
-
             <li>
               <Link to="resume">Resume</Link>
             </li>
-
             <li>
               <Link to="cover">Cover</Link>
             </li>
