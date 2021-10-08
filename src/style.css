@@ -8,6 +8,7 @@ body {
   overflow: scroll;
   max-width: 1024;
   align-content: center;
+
   align-items: center;
 }
 .background {
