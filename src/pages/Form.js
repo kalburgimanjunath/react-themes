@@ -1,13 +1,13 @@
 import React from 'react';
 import Background from '../components/Background';
 import Sidebar from '../components/Sidebar';
-import Content from '../components/Content';
+import FormContent from '../components/FormContent';
 export default function Form() {
   return (
     <div>
       <Background />
       <Sidebar type="resume" />
-      <Content />
+      <FormContent />
     </div>
   );
 }
