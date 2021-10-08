@@ -6,7 +6,7 @@ export default function Cover() {
   return (
     <div>
       <Background />
-      <Sidebar />
+      <Sidebar type="cover" />
       <CoverContent />
     </div>
   );

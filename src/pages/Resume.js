@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div>
       <Background />
-      <Sidebar />
+      <Sidebar type="resume" />
       <Content />
     </div>
   );
